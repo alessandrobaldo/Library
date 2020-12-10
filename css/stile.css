@@ -1,0 +1,419 @@
+
+body{
+    font-family: "Verdana", "Helvetica Neue",  sans-serif;
+    background-color: white;
+
+
+}
+/*SEZIONE SOPRA HEADER*/
+#parametriLogin{
+    background-color: lightslategrey;
+    opacity:0.7;
+    clear:both;
+    color: azure;
+    text-align: right;
+    font-size: 1.6ex;
+    border-radius: 0.3em;
+    padding: 0.5ex;
+
+
+
+
+}
+/*HEADER*/
+#header{
+    background-color: #327055;
+    background-image: url("books.png");
+    background-position: center center;
+    clear:both;
+    margin-top: 0.7em;
+    color:azure;
+    padding: 1em 1em 1em 1em;
+    border-collapse: collapse;
+    border-spacing: 0ex;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+}
+
+
+
+#titolo{
+    color: yellow;
+    font-size: 5em;
+    margin:0;
+    text-align:center;
+
+
+
+
+}
+/*FOOTER*/
+#footer{
+    background-color: #327055;
+    clear:both;
+    margin-bottom: 0.05em;
+    margin-top: 0.1em;
+    padding:1ex;
+    color:azure;
+    font-size:1.4ex;
+    text-align: right;
+    border-radius: 0.3em;
+
+}
+/*CONTENUTO*/
+#infogenerali{
+    background-color: azure;
+    font-size:1.5ex;
+    text-align:center;
+    padding-right: 2em;
+    padding-left:2em;
+    border: 0.1ex solid maroon;
+    padding-top: 10ex;
+    padding-bottom: 1ex;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+
+
+
+
+
+}
+/*MENU*/
+#menu{
+
+    clear:both;
+    margin-bottom: 1em;
+
+
+
+}
+
+ul.elementoMenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li.elementoMenu{
+    float:left;
+    clear:none;
+    width:20%;
+    min-width:10%;
+    background-color: #327055;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 2.2ex;
+    color:azure;
+    text-align: center;
+    border-top: 0.1ex solid azure;
+
+}
+
+
+#HOME{
+    border-bottom: 0.2ex solid greenyellow;
+
+}
+#HOME:hover{
+    border-top: 0.2ex solid greenyellow;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+#LOGIN{
+    border-bottom: 0.2ex solid darkorange;
+
+
+}
+
+#LOGIN:hover{
+    border-top: 0.2ex solid darkorange;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+#NEW{
+    border-bottom: 0.2ex solid dodgerblue;
+
+}
+#NEW:hover{
+    border-top: 0.2ex solid dodgerblue;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+
+}
+
+#LIBRI{
+    border-bottom: 0.2ex solid maroon;
+
+}
+#LIBRI:hover{
+    border-top: 0.2ex solid maroon;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+
+#LOGOUT {
+    border-bottom: 0.2ex solid yellow;
+}
+
+#LOGOUT:hover{
+    border-top: 0.2ex solid yellow;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+
+
+h2{
+    font-size:2ex;
+}
+
+a{
+   text-decoration: none;
+}
+
+.error{
+    color:red;
+}
+
+
+
+#hereC{ /*Sezione del menu riferita alla pagina su cui mi trovo*/
+    background-color: azure;
+    border-bottom: 0;
+    color: #327055;
+
+}
+#hereC:nth-child(1){
+    border-top: 0.2ex solid greenyellow;
+
+}
+#hereC:nth-child(1):hover{
+    border-top: 0.2ex solid greenyellow;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+#hereC:nth-child(2){
+    border-top: 0.2ex solid darkorange;
+}
+#hereC:nth-child(2):hover{
+    border-top: 0.2ex solid darkorange;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+#hereC:nth-child(3){
+    border-top: 0.2ex solid dodgerblue;
+}
+#hereC:nth-child(3):hover{
+    border-top: 0.2ex solid dodgerblue;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+#hereC:nth-child(4){
+    border-top: 0.2ex solid maroon;
+}
+#hereC:nth-child(4):hover{
+    border-top: 0.2ex solid maroon;
+    color: #327055;
+    background-color: azure;
+    border-bottom:0;
+}
+
+
+
+/*SEZIONI LOGIN E REGISTRAZIONE*/
+#auth,#signin{/*CSS div Login e Registrazione*/
+    text-align:center;
+    border: 0.1ex solid maroon;
+    padding-right: 2em;
+    padding-left:2em;
+    padding-top: 10ex;
+    padding-bottom: 1ex;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    background-color:azure;
+
+
+
+
+}
+#loginSet{/*CSS form*/
+    background-color: lightgrey;
+    border: 0.1ex solid maroon;
+    text-align: center;
+    padding-top:2ex;
+    padding-bottom: 2ex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1em;
+    margin-bottom: 5em;
+    width:25%;
+    min-width: 30ex;
+
+}
+
+.button{/*CSS bottoni form*/
+    background-color: #327055;
+    color:azure;
+    font-size:2ex;
+    -webkit-border-radius: 0.1em;
+    -moz-border-radius: 0.1em;
+    border-radius: 0.5em;
+}
+
+.input{ /*CSS input form*/
+    -webkit-border-radius: 0.1em;
+    -moz-border-radius: 0.1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right:2em;
+    font-size: 2ex;
+}
+
+
+/*SEZIONE LIBRI*/
+table{
+    border: 0.2ex solid #327055;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2ex;
+
+}
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+td{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+th{
+    background-color: #327055;
+    color:azure;
+}
+
+ul{
+    list-style: none;
+}
+
+li.libro{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.images{
+    width:12em;
+    height:18em;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    border: 0.2em solid #327055;
+    transition: all 1s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.images:hover{
+    width:14em;
+    height:21em;
+    border: 0.3em solid #327055;
+
+}
+
+
+
+/*IMPOSTAZIONI SCHERMO RIDOTTO*/
+
+@media only screen and (max-width: 768px){
+    #menu{
+        margin-bottom:1em;
+    }
+
+    li.elementoMenu{
+        float:left;
+        clear: left;
+        border-top: 0;
+        border-bottom: 0;
+        width:100%;
+        border-collapse: collapse;
+    }
+
+}
+
+/*IMPOSTAZIONI DI STAMPA*/
+@media only print{
+    body,#header{
+        background-color: white;
+        font-family: "Times New Roman", Serif;
+        color:black;
+
+
+    }
+
+    #titolo{
+        color:black;
+        font-size: 18pt;
+        border: 1pt solid black;
+    }
+
+    h1{
+        font-size:15pt;
+    }
+
+
+
+
+    #infogenerali, #footer, #auth,#signin{
+        border:1pt solid black;
+        font-size:12pt;
+        background-color: white;
+        color:black;
+    }
+
+    #loginSet{
+        border: 1pt solid black;
+    }
+
+
+    a{
+        text-decoration: underline;
+        color: black;
+    }
+
+    .active, #hereS{
+        font-size:15pt;
+        color:black;
+
+    }
+
+    #parametriLogin img, #header img,#menu,.images{
+        display: none;
+    }
+
+    #parametriLogin{
+        color:black;
+    }
+
+
+
+}
+
+
